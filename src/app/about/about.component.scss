@@ -1,4 +1,6 @@
 .main {
+  position: relative;
+  top: 10em;
   .about-text {
     color: whitesmoke;
     text-align: center;
@@ -13,4 +15,10 @@
   .card-body a {
     text-decoration: none;
 }
+}
+@media screen and (max-width: 991px) {
+  .main {
+    position: relative;
+    top: 20em;
+  }
 }
