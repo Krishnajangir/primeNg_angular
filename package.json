@@ -26,6 +26,7 @@
     "@angular/router": "~11.2.5",
     "@nguniversal/express-engine": "^11.2.1",
     "@ngx-translate/core": "^13.0.0",
+    "@types/chart.js": "^2.9.37",
     "bootstrap": "^5.2.0-beta1",
     "chart.js": "^2.9.4",
     "express": "^4.15.2",
