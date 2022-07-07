@@ -1,0 +1,37 @@
+<div class="main d-flex flex-column align-items-center justify-content-center" style="height: 500px;">
+  <div class="about-text text-white-80">
+    <h1>Hello There!</h1>
+    <h2>My name is Krishna Jangir.</h2>
+    <p class="lead">I’m a Software Developer and currently working with Nagarro, Gurgaon Office.</p>
+  </div>
+  <button type="button" class="mr-2 btn btn-light" (click)="visibleSidebar2 = true">Know More</button>
+</div>
+<p-sidebar [(visible)]="visibleSidebar2" position="right" [baseZIndex]="10000">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../../assets/images/IMG-20201226-WA0017.jpg" alt="Card image cap">
+    <div class="card-body">
+      <div class="card-body">
+        <h4>Introdution</h4>
+        <p>Experienced Associate with a demonstrated history of working in the information technology and services
+          industry.</p>
+        <p> Skilled in Javascript, Angular, Ionic, Html, CSS, Git, JSON, Agile and basic knowledge in React JS and Node
+          JS.</p>
+        <p>Strong professional with a Bachelor of Technology (B.Tech) from Sobhasaria Engg. College, Sikar.</p>
+        <div>
+          <h4>Follow Me On</h4>
+          <a href="https://github.com/Krishnajangir" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="Github">Github</a><br>
+          <a href="https://www.linkedin.com/in/jangirkrishna/" target="_blank" data-bs-toggle="tooltip"
+            data-bs-placement="top" title="linkedin">Linkedin</a><br>
+          <a href="https://www.hackerrank.com/krish33" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="Hackerrank">Hackerrank</a>
+        </div>
+        <div class="mt-3">
+          <h4>Hobbies</h4>
+          <p>Interaction With New people.</p>
+          <p>Learning New Things.</p>
+          <p>Singing And Listening Music.</p>
+        </div>
+      </div>
+    </div>
+  </div>

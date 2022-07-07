@@ -1,0 +1,35 @@
+$font-size: 1.12em;
+$font-weight: 700;
+
+.container-fluid {
+  font-weight: $font-weight;
+  font-size: $font-size;
+
+  .navbar-color {
+    color: white !important;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.792) !important;
+
+    &.active {
+      color: whitesmoke !important;
+      text-decoration: underline;
+      text-decoration-style: double;
+    }
+  }
+  .navbar-collapse {
+    flex-grow: 0.8 !important;
+  }
+  .navbar-brand {
+    margin-left: 19em;
+  }
+  .navbar-toggler {
+     background-color: #ffffff59 !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    margin-left: 0em !important;
+  }
+}

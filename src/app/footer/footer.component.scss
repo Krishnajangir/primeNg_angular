@@ -1,0 +1,37 @@
+.card {
+  background-color: #333;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa:before {
+  font-size: 30px;
+  color: white;
+}
+
+.card-body-second {
+  margin: 1em;
+}
+
+.card-body-second a {
+  margin-right: 1em;
+}
+
+.iconify {
+  position: relative;
+  bottom: 0.1em;
+  color: white;
+  font-size: 30px;
+}
+a {
+  color: white;
+}
+@media screen and (max-width: 991px) {
+  .card-body {
+    display: flex;
+    justify-content: space-between;
+  }
+}

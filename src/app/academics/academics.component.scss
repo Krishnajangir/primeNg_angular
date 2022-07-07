@@ -1,0 +1,13 @@
+.card-conatiner {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .card-conatiner {
+    overflow-y: scroll;
+    height: 500px;
+  }
+}
