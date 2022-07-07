@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\"; // No support for subclassing array, return an actual Array object.\n\nfunction item(i) {\n  /* jshint validthis: true */\n  return this[i] || null;\n}\n\nfunction NodeList(a) {\n  if (!a) a = [];\n  a.item = item;\n  return a;\n}\n\nmodule.exports = NodeList;","map":null,"metadata":{},"sourceType":"script"}
