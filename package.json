@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "node dist/krishnaResume/server/main.js",
+    "build": "ng run krishnaResume:prerender",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
