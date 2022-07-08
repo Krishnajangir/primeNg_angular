@@ -16,9 +16,11 @@
     text-decoration: none;
 }
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 450px) and (max-width: 991px) {
   .main {
     position: relative;
     top: 20em;
   }
 }
+
+

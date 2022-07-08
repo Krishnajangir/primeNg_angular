@@ -7,8 +7,15 @@
 }
 @media screen and (max-width: 991px) {
   .card-conatiner {
-    overflow-y: scroll;
-    height: 700px;
+    height: 500px;
     width: 100%;
   }
 }
+@media screen and (max-width: 450px){
+  .card-conatiner{
+    width: 100%;
+    overflow-y: scroll;
+    height: 500px;
+}
+}
+

@@ -1,7 +1,6 @@
 .card-conatiner {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5px;
+  grid-template-columns: repeat(1, 1fr);
   width: 60%;
   margin: auto;
 }
@@ -9,10 +8,17 @@
 @media screen and (max-width: 991px) {
   .card-conatiner{
       width: 100%;
-      overflow: scroll;
-      height: 700px;
+      // overflow: scroll;
+      height: 500px;
   }
   .card-body {
     flex-wrap: wrap;
   }
+}
+@media screen and (max-width: 450px){
+  .card-conatiner{
+    width: 100%;
+    overflow-y: scroll;
+    height: 500px;
+}
 }
